@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+	<TemplateConfiguration>
+		<_Name>UITest Page Object with Setup</_Name>
+		<Image id="md-nunit-library-project"></Image>
+		<_Category>UITest Helpers</_Category>
+		<_Description>This file contains useful app extensions, an example page object, and an example hook to invoke your page object methods easily from the IApp object.</_Description>
+		<DefaultFilename>NewPage</DefaultFilename>
+	</TemplateConfiguration>
+
+
+	<Actions>
+		<Open filename="Pages/${Name}.cs"/>
+	</Actions>
+
+	<TemplateFiles>
+		<File name="AppExtensions.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="False"
+			BuildAction="Compile"
+			src="AppExtensions.cs"/>	
+
+		<File name="Pages/PageExtensions.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="False"
+			BuildAction="Compile"
+			src="PageExtensions.cs"/>	
+		
+		<File name="Pages/BasePage.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="False"
+			BuildAction="Compile"
+			src="BasePage.cs"/>
+
+		<File name="Pages/Trait.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="False"
+			BuildAction="Compile"
+			src="Trait.cs"/>
+
+		<File name="Pages/LoginPage.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="False"
+			BuildAction="Compile"
+			src="LoginPage.cs"/>
+
+		<File name="Pages/${Name}.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="false"
+			BuildAction="Compile"
+			src="NewPage.cs"/>
+	</TemplateFiles>
+</Template>

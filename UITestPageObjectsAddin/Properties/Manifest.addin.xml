@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path="/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id="PageObjects" file="Templates/PageObjectAppExtensions.xft.xml"/>
+		<FileTemplate id="SinglePageObject" file="Templates/PageObject.xft.xml"/>
+	</Extension>
+</ExtensionModel>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+	<TemplateConfiguration>
+		<_Name>UITest Page Object</_Name>
+		<Image id="md-nunit-library-project"></Image>
+		<_Category>UITest Helpers</_Category>
+		<_Description>Add a new page object to your solution.</_Description>
+		<DefaultFilename>NewPage</DefaultFilename>
+	</TemplateConfiguration>
+
+	<TemplateFiles>
+		<File name="${Name}.cs"
+			DefaultExtension=".cs"
+			AddStandardHeader="False"
+			BuildAction="Compile"
+			src="NewPageWithComment.cs"/>	
+	</TemplateFiles>
+</Template>
