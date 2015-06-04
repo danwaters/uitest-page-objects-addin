@@ -24,6 +24,6 @@ UITest Page Objects with Setup is a file template that adds all the requisite cl
 UITest Page Object simply creates a new page object. 
 
 ## Traits
-These templates offer an optional concept called **traits**.
+These templates offer an optional concept called **traits**. *to be continued*
 
 
